@@ -173,7 +173,7 @@ class BaseFormatter {
     if (arrayKeys) {
       keys.sort(arrayKeyComparer);
     } else {
-      keys.sort();
+      //keys.sort();
     }
     for (let index = 0, length = keys.length; index < length; index++) {
       const key = keys[index];
